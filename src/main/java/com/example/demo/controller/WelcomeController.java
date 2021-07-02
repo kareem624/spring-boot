@@ -8,12 +8,12 @@ public class WelcomeController {
 	
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello Welcome to Spring boot..";
+		return "Hello modified, Welcome to Spring boot..";
 	}
 	
 	@GetMapping("/hi")
 	public String sayHi() {
-		return "Hi Welcome to Spring boot";
+		return "Hi modified, Welcome to Spring boot";
 	}
 
 }
